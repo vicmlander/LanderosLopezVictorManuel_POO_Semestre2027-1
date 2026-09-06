@@ -6,14 +6,17 @@
     No: 3-16229849
 ====================================*/
 public class Alumno {
+
     // == Atributos ==
     int edad;
     float promedio;
     String nombre, semestre;
     char sexo;
+
     // == Constructor vacío ==
     public Alumno() {
     }
+
     // == Constructor completo ==
     public Alumno(int edad, float promedio, String nombre, String semestre, char sexo) {
         this.edad = edad;
@@ -22,6 +25,7 @@ public class Alumno {
         this.semestre = semestre;
         this.sexo = sexo;
     }
+
     // == Setters ==
     public void setEdad(int edad) {
         this.edad = edad;
@@ -38,6 +42,7 @@ public class Alumno {
     public void setSexo(char sexo) {
         this.sexo = sexo;
     }
+
     // == Getters ==
     public int getEdad() {
         return edad;
