@@ -10,8 +10,8 @@ public class multiplicar{
     int numero1 = 5;
     int numero2 = 6;
     /* Una vez declarando las variables asi que haremos la siguiente operación */ 
-    in resultado = numero1 * numero2; 
+    int resultado = numero1 * numero2; 
     /* Una vez declarado y haciendo la operación haremos que el codigo haga la impresión de la operación */ 
-    System.out.printl (" El resultado es: " + resultado); 
+    System.out.println (" El resultado es: " + resultado); 
   }
 }
