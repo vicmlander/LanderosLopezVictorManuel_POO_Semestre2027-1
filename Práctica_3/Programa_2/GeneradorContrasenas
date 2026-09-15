@@ -42,4 +42,4 @@ public class GeneradorContrasenas {
 
         return contrasena.toString();//convierte el StringBuilder a String y lo devuelve.
     }
-}
+} 
