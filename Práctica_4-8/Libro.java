@@ -3,8 +3,10 @@
     Programación Orientada a Objetos 2027-1
 
     Melgarejo Cervantes Manuel Alejandro.
+    Coronado Ramirez LUis Angel
     Equipo 1
     No: 322063132
+    No: 426059057
 
     Clase que representa un libro de la biblioteca
     y controla su disponibilidad.
@@ -98,16 +100,32 @@ public class Libro {
         return disponible;
     }
 
+//10/10/26 se han modificado los metodos prestar y devolver 
+//para que cambien su estado segun la existencia o devolucion de un libro
+
     // == Prestar libro ==
     public void prestar() {
-        if (disponible) {
-            disponible = false;
-        }
-    }
 
+        if (disponible==false) {
+            System.out.println("El libro solicitado no se encuentra disponible");}
+        
+        else{
+            System.out.println("prestamo autorizado");
+            disponible=false;
+
+    }
+        }
+        
     // == Devolver libro ==
     public void devolver() {
-        disponible = true;
+       if  (disponible == false){
+        System.out.println("Libro devuelto");
+         disponible=true;
+
+       }else{
+        System.out.println("Libro ya disponible");
+         
+       }
     }
 
     // == Mostrar información ==
