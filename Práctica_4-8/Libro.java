@@ -128,6 +128,17 @@ public class Libro {
        }
     }
 
+    //17/10/26 se agrego el metodo mostrar disponibilidad
+    public void mostrarDisponibilidad(){
+         if (disponible==false) {
+            System.out.println("El libro no esta disponible");}
+        
+        else{
+            System.out.println("el libro esta disponible");
+            
+
+    }}
+
     // == Mostrar información ==
     public void mostrarInformacion() {
         System.out.println("ISBN: " + isbn);
