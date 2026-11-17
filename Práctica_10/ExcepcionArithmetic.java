@@ -2,6 +2,10 @@
     Práctica 10
     Programación Orientada a Objetos 2027-1
 
+    Programa que solicita dos números al usuario y realiza
+    una división, demostrando el manejo de la excepción
+    ArithmeticException cuando se intenta dividir entre cero.
+
     Landeros López Victor Manuel.
     Equipo 1
     No: 3-16229849

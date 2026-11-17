@@ -2,6 +2,10 @@
     Práctica 10
     Programación Orientada a Objetos 2027-1
 
+    Programa que solicita el nombre del usuario y demuestra
+    el manejo de la excepción NullPointerException al intentar
+    utilizar una variable que contiene un valor null.
+
     Landeros López Victor Manuel.
     Equipo 1
     No: 3-16229849

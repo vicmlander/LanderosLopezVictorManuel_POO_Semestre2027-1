@@ -2,6 +2,11 @@
     Práctica 11
     Programación Orientada a Objetos 2027-1
 
+    Programa que administra las reservaciones de un salón
+    mediante un archivo de texto, permitiendo consultar la
+    disponibilidad de fechas y horarios, así como guardar
+    nuevas reservaciones con sus respectivos datos.
+
     Landeros López Victor Manuel.
     Equipo 1
     No: 3-16229849
